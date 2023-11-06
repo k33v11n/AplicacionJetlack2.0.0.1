@@ -7,6 +7,46 @@
     tools:context=".tipo_numero1">
 
     <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipos de Ejercicios"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="96dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="177dp"
+        android:layout_height="91dp"
+        android:text="Crunches Abdominales Series:3-4 Repeticiones:15-20"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="462dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton2"
+        android:layout_width="167dp"
+        android:layout_height="86dp"
+        android:text="Sentadillas(Squats)Series:3-4 Repeticiones:10-15"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="172dp"
+        android:layout_height="85dp"
+        android:text="Plancha(Plank)Series:3-4 Tiempo en posicion:30-60segundos"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="168dp"
+        android:layout_height="66dp"
+        android:text="Flexiones(push ups)Series: 3-4 Repeticiones: 10-15"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <TextView
         android:id="@+id/textView3"
         android:layout_width="185dp"
         android:layout_height="57dp"
@@ -14,4 +54,37 @@
         android:textSize="20sp"
         tools:layout_editor_absoluteX="113dp"
         tools:layout_editor_absoluteY="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="175dp"
+        android:layout_height="65dp"
+        app:srcCompat="@mipmap/flexiones"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="174dp"
+        android:layout_height="75dp"
+        app:srcCompat="@mipmap/sentadilla"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="175dp"
+        android:layout_height="83dp"
+        app:srcCompat="@mipmap/plank"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="177dp"
+        android:layout_height="86dp"
+        app:srcCompat="@mipmap/Abdominal"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="462dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

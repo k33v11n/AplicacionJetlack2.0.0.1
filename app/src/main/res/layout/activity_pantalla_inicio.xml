@@ -20,7 +20,7 @@
         android:layout_width="181dp"
         android:layout_height="43dp"
         tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="160dp" />
+        tools:layout_editor_absoluteY="190dp" />
 
     <Button
         android:id="@+id/button"
@@ -44,5 +44,5 @@
         android:layout_height="36dp"
         android:text="Tiempo"
         tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="229dp" />
+        tools:layout_editor_absoluteY="266dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
