@@ -6,43 +6,80 @@
     android:layout_height="match_parent"
     tools:context=".pantalla_inicio">
 
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.796" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="136dp"
-        android:layout_height="32dp"
+        android:layout_width="154dp"
+        android:layout_height="41dp"
         android:text="Cronometro"
-        tools:layout_editor_absoluteX="126dp"
-        tools:layout_editor_absoluteY="28dp" />
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.458"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="181dp"
         android:layout_height="43dp"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="190dp" />
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="106dp"
-        android:layout_height="51dp"
-        android:text="Iniciar"
-        tools:layout_editor_absoluteX="70dp"
-        tools:layout_editor_absoluteY="407dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="119dp"
-        android:layout_height="50dp"
-        android:text="Reiniciar"
-        tools:layout_editor_absoluteX="216dp"
-        tools:layout_editor_absoluteY="406dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.511" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="184dp"
-        android:layout_height="36dp"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
         android:text="Tiempo"
-        tools:layout_editor_absoluteX="98dp"
-        tools:layout_editor_absoluteY="266dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.595" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="204dp"
+        android:layout_height="205dp"
+        app:srcCompat="@mipmap/calentamiento"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="395dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

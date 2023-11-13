@@ -6,45 +6,88 @@
     android:layout_height="match_parent"
     tools:context=".tipo_numero1">
 
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.749"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.875" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.273"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.879" />
+
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tipos de Ejercicios"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="96dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.13" />
 
     <RadioButton
         android:id="@+id/radioButton"
-        android:layout_width="177dp"
-        android:layout_height="91dp"
+        android:layout_width="169dp"
+        android:layout_height="77dp"
         android:text="Crunches Abdominales Series:3-4 Repeticiones:15-20"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="462dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.685" />
 
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="167dp"
         android:layout_height="86dp"
         android:text="Sentadillas(Squats)Series:3-4 Repeticiones:10-15"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="221dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
 
     <RadioButton
         android:id="@+id/radioButton3"
         android:layout_width="172dp"
         android:layout_height="85dp"
         android:text="Plancha(Plank)Series:3-4 Tiempo en posicion:30-60segundos"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="339dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <RadioButton
         android:id="@+id/radioButton4"
         android:layout_width="168dp"
-        android:layout_height="66dp"
+        android:layout_height="70dp"
         android:text="Flexiones(push ups)Series: 3-4 Repeticiones: 10-15"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
 
     <TextView
         android:id="@+id/textView3"
@@ -52,39 +95,59 @@
         android:layout_height="57dp"
         android:text="Ectomorfo"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="175dp"
         android:layout_height="65dp"
-        app:srcCompat="@mipmap/flexiones"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="132dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        app:srcCompat="@mipmap/flexiones" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="174dp"
         android:layout_height="75dp"
-        app:srcCompat="@mipmap/sentadilla"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="228dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336"
+        app:srcCompat="@mipmap/sentadilla" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="175dp"
-        android:layout_height="83dp"
-        app:srcCompat="@mipmap/plank"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="339dp" />
+        android:layout_width="160dp"
+        android:layout_height="61dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@mipmap/plank" />
 
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="177dp"
-        android:layout_height="86dp"
-        app:srcCompat="@mipmap/Abdominal"
-        tools:layout_editor_absoluteX="221dp"
-        tools:layout_editor_absoluteY="462dp" />
+        android:layout_width="156dp"
+        android:layout_height="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.917"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.689"
+        app:srcCompat="@mipmap/Abdominal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

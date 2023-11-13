@@ -6,29 +6,65 @@
     android:layout_height="match_parent"
     tools:context=".tipo_numero2">
 
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.808" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="104dp"
+        android:layout_height="51dp"
+        android:text="Atras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.811" />
+
     <RadioButton
         android:id="@+id/radioButton5"
         android:layout_width="210dp"
         android:layout_height="72dp"
         android:text="Sentadillas(Squats) con salto Series: 3-4 series Repeticiones: 12-15 repeticiones por serie"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="226dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.336" />
 
     <RadioButton
         android:id="@+id/radioButton6"
         android:layout_width="202dp"
         android:layout_height="69dp"
         android:text="Plancha(Plank)Series: 3-4 series Duración: Mantén la posición durante 45-60 segundos por serie"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="318dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.484" />
 
     <RadioButton
         android:id="@+id/radioButton7"
         android:layout_width="205dp"
         android:layout_height="75dp"
         android:text="Burpees Series: 3-4 series Repeticiones: 10-12 repeticiones por serie"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="414dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.638" />
 
     <TextView
         android:id="@+id/textView15"
@@ -36,23 +72,43 @@
         android:layout_height="37dp"
         android:text="Mesomorfo"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="130dp"
-        tools:layout_editor_absoluteY="25dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Tipos de Ejercicios"
-        tools:layout_editor_absoluteX="121dp"
-        tools:layout_editor_absoluteY="104dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.04"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
 
     <RadioButton
         android:id="@+id/radioButton8"
         android:layout_width="203dp"
         android:layout_height="72dp"
         android:text="Flexiones(push ups) con variaciones Series: 3-4 series Repeticiones: 12-15 repeticiones por serie"
-        tools:layout_editor_absoluteX="9dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.186" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="126dp"
+        android:layout_height="69dp"
+        app:srcCompat="@mipmap/flexiones"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="123dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
