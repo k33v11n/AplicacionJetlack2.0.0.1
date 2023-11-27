@@ -19,7 +19,7 @@ public class splash_screen extends AppCompatActivity {
             public void run() {
                 Intent intent = new Intent
                         (getApplicationContext(),
-                                MainActivity.class);
+                                login.class);
                 startActivity(intent);
                 finish();
             }

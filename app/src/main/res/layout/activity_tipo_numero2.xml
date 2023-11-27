@@ -7,7 +7,7 @@
     tools:context=".tipo_numero2">
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btnsiguientetipo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Siguiente"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.808" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/btnatrastipo2"
         android:layout_width="104dp"
         android:layout_height="51dp"
         android:text="Atras"
