@@ -13,10 +13,10 @@
         android:text="Siguiente"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.788"
+        app:layout_constraintHorizontal_bias="0.772"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.808" />
+        app:layout_constraintVertical_bias="0.84" />
 
     <Button
         android:id="@+id/btnatrastipo2"
@@ -28,12 +28,13 @@
         app:layout_constraintHorizontal_bias="0.257"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.811" />
+        app:layout_constraintVertical_bias="0.844" />
 
     <RadioButton
         android:id="@+id/radioButton5"
         android:layout_width="210dp"
         android:layout_height="72dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Sentadillas(Squats) con salto Series: 3-4 series Repeticiones: 12-15 repeticiones por serie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,6 +47,7 @@
         android:id="@+id/radioButton6"
         android:layout_width="202dp"
         android:layout_height="69dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Plancha(Plank)Series: 3-4 series Duración: Mantén la posición durante 45-60 segundos por serie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -58,6 +60,7 @@
         android:id="@+id/radioButton7"
         android:layout_width="205dp"
         android:layout_height="75dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Burpees Series: 3-4 series Repeticiones: 10-12 repeticiones por serie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -71,7 +74,7 @@
         android:layout_width="132dp"
         android:layout_height="37dp"
         android:text="Mesomorfo"
-        android:textSize="20sp"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.465"
@@ -83,7 +86,9 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
         android:text="Tipos de Ejercicios"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.04"
@@ -95,6 +100,7 @@
         android:id="@+id/radioButton8"
         android:layout_width="203dp"
         android:layout_height="72dp"
+        android:fontFamily="sans-serif-condensed"
         android:text="Flexiones(push ups) con variaciones Series: 3-4 series Repeticiones: 12-15 repeticiones por serie"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

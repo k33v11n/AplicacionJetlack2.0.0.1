@@ -40,7 +40,14 @@ public class pantalla_inicio extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        Button btnAtras = findViewById(R.id.btnatrascronometro);
+        btnAtras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Finaliza la actividad actual para retroceder
+                finish();
+            }
+        });
         textViewTimer = findViewById(R.id.tiempo);
         btnStart = findViewById(R.id.btniniciar);
 

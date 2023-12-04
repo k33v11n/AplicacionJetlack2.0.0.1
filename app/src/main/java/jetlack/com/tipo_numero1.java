@@ -22,5 +22,16 @@ public class tipo_numero1 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        Button btnAtras = findViewById(R.id.btnatrastipo1);
+        btnAtras.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Finaliza la actividad actual para retroceder
+                finish();
+            }
+        });
+
+
     }
 }

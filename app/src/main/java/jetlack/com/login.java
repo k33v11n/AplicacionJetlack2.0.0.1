@@ -15,6 +15,7 @@ public class login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         Button btnIrAPantalla2 = findViewById(R.id.btningresarlogin);
+
         btnIrAPantalla2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -22,6 +23,7 @@ public class login extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
 
     }
 }
